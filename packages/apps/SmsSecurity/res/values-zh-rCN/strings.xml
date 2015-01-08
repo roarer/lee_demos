@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">电子保卡</string>
+    <string name="SMSSecurity_Settings_Title">防伪短信设置</string>
+    <string name="ServiceState_Title">服务状态</string>
+    <string name="ServiceState_CheckBox_Text">服务状态</string>
+    <string name="ServiceState_CheckBox_Running">已开启</string>
+    <string name="ServiceState_CheckBox_Stop">已关闭</string>
+    <string name="ServiceNumber_Title">服务号码</string>
+    <string name="ServiceNumber_Editor_TEXT">服务号码</string>
+    <string name="TimeSettings_Title">触发时长设置</string>
+    <string name="BootTime_Text">开机时长</string>
+    <string name="CallTime_Text">通话时长</string>
+    <string name="OnceCallTime_Text">单次通话时长</string>
+    <string name="Content_Title">通知内容</string>
+    <string name="Content_text">通知内容</string>
+    <string name="Prefix_01">前缀1</string>
+    <string name="Prefix_02">前缀2</string>
+    <string name="Prefix_03">前缀3</string>
+    <string name="IMEI_Number">IMEI 号码</string>
+    <string name="MainBroad_Number">主板号</string>
+    <string name="SoftWare_Version">软件版本</string>
+    <string name="ChangeServiceDialog_Title">服务状态更改</string>
+    <string name="ChangeServiceDialog_Message">确定更改服务状态?</string>
+    <string name="ChangeServiceDialog_Cancel">取消</string>
+    <string name="ChangeServiceDialog_Ok">确定</string>
+    <string name="Hour">小时</string>
+    <string name="Minute">分钟</string>
+    
+</resources>
+

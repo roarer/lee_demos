@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Electronic Security Card
+</string>
+    <string name="KEY_SMSSecuritySETTING">KEY_SMSSECURITYSETTING</string>
+    <string name="SMSSecurity_Settings_Title">SMSSecurity Setting</string>
+    <string name="KEY_ServiceState">KEY_SERVICESTATE_PRF</string>
+    <string name="ServiceState_Title">Service State</string>
+    <string name="ServiceState_CheckBox_Text">Service State</string>
+    <string name="ServiceState_CheckBox_Running">Open</string>
+    <string name="ServiceState_CheckBox_Stop">Close</string>
+    <string name="KEY_ServiceState_CheckBox">KEY_SERVICESTATE_CHECKBOX</string>
+    <string name="KEY_ServiceNumber_PRF">KEY_SERVICENUMBER_PRF</string>
+    <string name="ServiceNumber_Title">Service Number</string>
+    <string name="ServiceNumber_Editor_TEXT">Service Number</string>
+    <string name="KEY_ServiceNumber_Editor">KEY_SERVICENUMBER_EDITOR</string>
+    <string name="KEY_TimeSettings_PRF">KEY_TIMESETTINGS_PRF</string>
+    <string name="TimeSettings_Title">Time Setting</string>
+    <string name="BootTime_Text">Boot Time</string>
+    <string name="KEY_BottTime">KEY_BOOTTIME</string>
+    <string name="CallTime_Text">Call Time</string>
+    <string name="KEY_CallTime">KEY_CALLTIME</string>
+    <string name="OnceCallTime_Text">Once Call Time</string>
+    <string name="KEY_OnceCallTime">KEY_ONCECALLTIME</string>
+    <string name="KEY_Content_PRF">KEY_CONTENT_PRF</string>
+    <string name="Content_Title">Notification Content</string>
+    <string name="KEY_Content">KEY_CONTENT</string>
+    <string name="Content_text">Notification Content</string>
+    <string name="Prefix_01">Prefix 1</string>
+    <string name="KEY_Prefix_01">KEY_PREFIX01</string>
+    <string name="Prefix_02">Prefix 2</string>
+    <string name="KEY_Prefix_02">KEY_PREFIX02</string>
+    <string name="Prefix_03">Prefix 3</string>
+    <string name="KEY_Prefix_03">KEY_PREFIX03</string>
+    <string name="KEY_IMEI_Number">KEY_IMEI_NUMBER</string>
+    <string name="IMEI_Number">IMEI Number</string>
+    <string name="KEY_MainBroad_Number">KEY_MAINBROAD_NUMBER</string>
+    <string name="MainBroad_Number">MainBroad Number</string>
+    <string name="KEY_SoftWare_Version">KEY_SOFTWARE_VERSION</string>
+    <string name="SoftWare_Version">SoftWare Version</string>
+    <string name="ChangeServiceDialog_Title">Notification</string>
+    <string name="ChangeServiceDialog_Message">Sure Change?</string>
+    <string name="ChangeServiceDialog_Cancel">Cancel</string>
+    <string name="ChangeServiceDialog_Ok">Ok</string>
+    <string name="Hour">Hour</string>
+    <string name="Minute">Minute</string>
+    
+</resources>

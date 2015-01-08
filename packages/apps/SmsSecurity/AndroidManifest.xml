@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.zte.smssecurity" android:versionCode="1"
+	android:sharedUserId="android.uid.system"
+	android:versionName="1.0">
+	<uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.GET_TASKS"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_SMS"></uses-permission>
+        <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />  
+ 
+        
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".SMSSecuritySettings">
+			<intent-filter>
+				<action android:name="com.zte.smssecurity.action.SMS_SECURITY_SETTING" />
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<service android:name=".SMSSecurityService">
+			<intent-filter>
+				<action android:name="com.zte.smssecurity.SMSSecurityService" />
+			</intent-filter>
+		</service>
+<!-- 		<service android:name=".PhoneTimeHandleService">
+			<intent-filter>
+				<action android:name="com.zte.smssecurity.PhoneTimeHandleService" />
+			</intent-filter>
+		</service> -->
+		<receiver android:name=".SMSSecurityReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<action android:name="com.zte.smssecurity.action.startservice"/>
+				<action android:name="com.zte.smssecurity.action.stopservice"/>  
+				<action android:name="android.intent.action.showSmsSecurityBack"/>  
+				<action android:name="com.zte.smssecurity.action.check_if_sent"/>
+				<action android:name="com.zte.smssecurity.action.clear_flags"/>
+				<action android:name="com.zte.smssecurity.action.sms_result"/>
+			</intent-filter>
+		</receiver>
+	<!-- 	<receiver android:name=".PhoneStateReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.PHONE_STATE" />
+			</intent-filter>
+		</receiver> -->
+	</application>
+</manifest>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="8095131950334945205">"悬浮小应用"</string>
+	<string name="calculator_app_name">"计算器"</string>
+    <string name="error" msgid="9197457880925804499">"出错"</string>
+    <string name="digit0" msgid="8069590963464434135">"0"</string>
+    <string name="digit1" msgid="8535041374797804029">"1"</string>
+    <string name="digit2" msgid="8977354203154316247">"2"</string>
+    <string name="digit3" msgid="148544090755132760">"3"</string>
+    <string name="digit4" msgid="2199490603838247678">"4"</string>
+    <string name="digit5" msgid="7568514524384173087">"5"</string>
+    <string name="digit6" msgid="6705952561049362551">"6"</string>
+    <string name="digit7" msgid="658125644218958447">"7"</string>
+    <string name="digit8" msgid="3134686906411558886">"8"</string>
+    <string name="digit9" msgid="765379157698748031">"9"</string>
+    <string name="del" msgid="6248896117422989693">"删除"</string>
+    <string name="clear" msgid="8103610981407459768">"清除"</string>
+    <string name="sin" msgid="6793866152659175277">"sin"</string>
+    <string name="cos" msgid="6901841853098114414">"cos"</string>
+    <string name="tan" msgid="7957459816738554960">"tan"</string>
+    <string name="e" msgid="1377847800971731483">"e"</string>
+    <string name="ln" msgid="6888500680285403344">"ln"</string>
+    <string name="lg" msgid="873623857385418182">"log"</string>
+    <string name="leftParen" msgid="4850643713953092099">"("</string>
+    <string name="rightParen" msgid="3177971166159324016">")"</string>
+    <string name="basic" msgid="7691469861698059753">"基本面板"</string>
+    <string name="advanced" msgid="7122495413742976492">"高级面板"</string>
+    <string name="clear_history" msgid="8458043980601165012">"清除历史记录"</string>
+    <string name="text_copied_toast" msgid="5801480710472541833">"文本已复制。"</string>
+    <string name="leftParenDesc" msgid="8446428211982811379">"左括号"</string>
+    <string name="rightParenDesc" msgid="9133691645148976523">"右括号"</string>
+    <string name="factorialDesc" msgid="9217024218012761574">"阶乘"</string>
+    <string name="lnDesc" msgid="1052579286300842270">"自然对数"</string>
+    <string name="lgDesc" msgid="6490920451513731160">"对数"</string>
+    <string name="sqrtDesc" msgid="2247252128762219267">"平方根"</string>
+    <string name="divDesc" msgid="7442623079124315427">"除"</string>
+    <string name="mulDesc" msgid="9003016819648670694">"乘"</string>
+    <string name="plusDesc" msgid="3145322700823848264">"加"</string>
+    <string name="minusDesc" msgid="5033462008907390900">"减"</string>
+    <string name="dotDesc" msgid="5253752241630161722">"小数点"</string>
+    <string name="powerDesc" msgid="9034898318444176910">"幂"</string>
+    <string name="delDesc" msgid="8211175878012032240">"删除"</string>
+    <string name="clearDesc" msgid="8015748901120751476">"清除"</string>
+    <string name="tanDesc" msgid="2055554933130702423">"正切"</string>
+    <string name="sinDesc" msgid="6563285042235077204">"正弦"</string>
+    <string name="cosDesc" msgid="4048942450207926538">"余弦"</string>
+    <string name="eDesc" msgid="6709583372168924068">"欧拉数"</string>
+    <string name="piDesc" msgid="8838151606775021517">"圆周率"</string>
+    <string name="equalDesc" msgid="4164435100263313101">"等于"</string>
+	<string name="video_app_name">"视频"</string>
+	
+  <string-array name="operatorDescs">
+    <item msgid="7903565108986789641">"左括号"</item>
+    <item msgid="1688156211934459752">"右括号"</item>
+    <item msgid="6664829080840305856">"阶乘"</item>
+    <item msgid="2880199289575144121">"自然对数"</item>
+    <item msgid="4398774906998694599">"对数"</item>
+    <item msgid="1791869359785943266">"平方根"</item>
+    <item msgid="6833720171974254459">"除以"</item>
+    <item msgid="2646574635189709515">"乘"</item>
+    <item msgid="3487936384379753697">"加"</item>
+    <item msgid="8608534484562258856">"减"</item>
+    <item msgid="3456824579675198186">"点"</item>
+    <item msgid="4528629783180278651">"幂"</item>
+    <item msgid="4050948027333760159">"正切"</item>
+    <item msgid="8716478860618683850">"正弦"</item>
+    <item msgid="3203211483560707480">"余弦"</item>
+    <item msgid="8587490959348493065">"圆周率"</item>
+    <item msgid="8134315487552198394">"等于"</item>
+  </string-array>
+
+	<!-- Video Player -->
+	<string name="video_list_empty">"无视频."</string> 
+	<string name="scanning">"正在扫描 SD 卡..."</string>
+	<string name="sdcard_missing_message">"手机中未插入 SD 卡。"</string>
+	
+	<!-- 录音机 -->  
+    <string name="sound_recorder_app_name" msgid="5955735546071433666">"录音机"</string>
+    <string name="record_your_message" msgid="1583671906691662148">"录下您的留言"</string>
+    <string name="message_recorded" msgid="381539460921872233">"信息已录制"</string>
+    <string name="review_message" msgid="201616012287839474">"查看信息"</string>
+    <string name="recording" msgid="4426791467211376099">"录音"</string>
+    <string name="recording_stopped" msgid="1580278719585249612">"录音停止"</string>
+    <string name="storage_is_full" msgid="416039755956726221">"存储空间已满"</string>
+    <string name="max_length_reached" msgid="6398215743584093353">"已达到长度上限"</string>
+    <string name="insert_sd_card" product="nosdcard" msgid="4609407750669086933">"装载 USB 存储设备"</string>
+    <string name="insert_sd_card" product="default" msgid="1007630222084726808">"请插入 SD 卡"</string>
+    <string name="min_available" msgid="5493947690062988925">"还剩 <xliff:g id="MINUTES">%d</xliff:g> 分钟"</string>
+    <string name="sec_available" msgid="2297020788861694399">"还剩 <xliff:g id="SECONDS">%d</xliff:g> 秒"</string>
+    <string name="accept" msgid="1888285552128743656">"完成"</string>
+    <string name="discard" msgid="761613433029406319">"放弃"</string>
+    <string name="button_ok" msgid="3004911343723076226">"确定"</string>
+    <!-- no translation found for audio_db_title_format (7912182366970749312) -->
+    <skip />
+    <string name="audio_db_artist_name" msgid="961640229118120080">"您的录音"</string>
+    <string name="audio_db_album_name" msgid="9072588113803264440">"录音"</string>
+    <string name="audio_db_playlist_name" msgid="5592939050047058162">"我的录音"</string>
+    <string name="error_sdcard_access" product="nosdcard" msgid="86629081075681774">"无法访问 USB 存储设备。"</string>
+    <string name="error_sdcard_access" product="default" msgid="5750308258096153274">"无法访问 SD 卡。"</string>
+    <string name="error_app_internal" msgid="312884382388702022">"发生内部应用错误。"</string>
+    <string name="error_mediadb_new_record" msgid="261714902333432462">"无法保存录制的音频。"</string>  
+	
+    <string name="unknown_artist_name" msgid="5567811106415855219">"未知艺术家"</string>
+    <string name="tell_save_record_success">保存成功</string>
+    <string name="save_record">保存</string>
+    <string name="cancel">取消</string>
+    <string name="recording_format_high">高</string>
+    <string name="recording_format_mid">中</string>
+    <string name="recording_format_low">低</string>
+    <string name="three_mins_avail_total">"共可录3分钟"</string>
+    <string name="alert_delete_multiple">将会删除这些文件</string>
+    <string name="alert_delete_single">将会删除该文件</string>
+    <string name="ok">确定</string>
+    <string name="delete">删除</string>
+    <string name="deleting">正在删除</string>
+    <string name="no_recording_file">(没有录音文件)</string>
+    <string name="recording_file_list">录音文件列表</string>
+    <string name="recording_paused">录音暂停</string>
+    <string name="voice_quality">音质</string>
+    <string name="recording_mode">录音模式</string>
+    <string name="select_voice_quality">选择音质</string>
+    <string name="select_recording_mode">选择录音模式</string>
+    <string name="recording_mode_nomal">"普通"</string>
+    <string name="time_available">"还剩 <xliff:g id="minutes">%d</xliff:g> 分钟 <xliff:g id="seconds">%d</xliff:g> 秒</string>
+    <string name="recording_mode_meeting">会议</string>
+    <string name="recording_mode_lecture">远距录音</string>
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <!-- Error Handle Message -->
+    <string name="sd_unmounted">SD卡被卸载</string>
+    <string name="storage_low">默认存储空间不足，请停止录音或删除SD卡中的文件.</string>
+    <string name="storage_full">默认存储空间已满.</string>
+    <string name="sd_no">请插入SD卡.</string>
+    <string name="recording_fail">录音失败</string>
+    <string name="recorder_occupied">录音功能被占用.</string>
+    <string name="playing_fail">录音失败</string>
+    <string name="player_occupied">播放功能被占用.</string>
+    <string name="recording_doc_deleted">文件被删除.</string>
+    <string name="saving_fail">存储失败</string>
+    <string name="deleting_fail">删除失败</string>
+    <string name="accessing_db_fail">访问数据库失败.</string>
+    <string name="recording_effect">录音效果</string>  
+    <string name="select_recording_effect">选择录音效果</string>  
+    <string name="recording_effect_AGC">麦克风自动调节</string>  
+    <string name="recording_effect_AEC">回音消除</string>  
+    <string name="recording_effect_NS">噪音消除</string> 
+    <string name="recording_format_standard">标准</string> 
+    <string name="not_available">当前不可用</string>
+
+	<!-- Music-->
+	<string name="music_title">音乐</string>	
+	<string name="music_no_lrc">未找到歌词，请下载</string>
+	<string name="music_error">无法播放此歌曲</string>
+	<string name="music_list_empty">"无音乐。"</string>
+</resources>

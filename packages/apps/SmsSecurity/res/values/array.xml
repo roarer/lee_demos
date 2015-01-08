@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="calltime">
+		<item>15  </item>
+	</string-array>
+	<string-array name="calltimevalue">
+		<item>900</item>
+	</string-array>
+	<string-array name="oncecalltime">
+		<item>5  </item>
+	</string-array>
+	<string-array name="oncecalltimevalue">
+		<item>300</item>
+	</string-array>
+	<string-array name="boottime">
+		<item>5   </item>
+	</string-array>
+	<string-array name="boottimevalue">
+		<item>18000000</item>
+	</string-array>
+	<string-array name="prefix01">
+		<item>ZTE</item>
+		<item>FDZTE</item>
+	</string-array>
+	<string-array name="prefix01value">
+		<item>ZTE&#x0020;&#x0020;</item>
+		<item>FDZTE</item>
+	</string-array>
+	<string-array name="prefix02">
+		<item>01</item>
+	</string-array>
+	<string-array name="prefix02value">
+		<item>01</item>
+	</string-array>
+	<string-array name="prefix03">
+		<item>05</item>
+	</string-array>
+	<string-array name="prefix03value">
+		<item>05</item>
+	</string-array>
+</resources>

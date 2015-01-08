@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/*
+ * Copyright (C) 2008, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+			  android:background="@drawable/music_background" 
+              >
+			  
+	<RelativeLayout
+		android:id="@+id/title_layout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		
+		>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/float_menu"
+			android:id="@+id/list_button"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="5dp"
+			android:layout_marginTop="5dp"
+			/>
+
+
+			
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/float_minimize"
+			android:id="@+id/minimize_button"
+			android:layout_alignParentRight="true"
+			android:layout_marginTop="5dp"
+			android:layout_marginRight="5dp"
+			/>
+			
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/music_title"
+			android:gravity="center"
+			android:layout_toRightOf="@id/list_button"
+			android:layout_toLeftOf="@id/minimize_button"
+			android:layout_marginTop="5dp"
+			android:textColor="#ffffff"
+			android:textSize="16dp"
+			android:id="@+id/title"
+			/>
+			
+	</RelativeLayout>	
+	
+	<FrameLayout	
+		android:id="@+id/float_layout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/title_layout"
+		
+		android:layout_margin="6dp"
+		>
+		
+		<ListView
+		android:id="@+id/list"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@drawable/music_list_background"
+		android:cacheColorHint="#00000000"  
+		/>
+		
+		<TextView
+		android:id="@+id/empty"
+		android:layout_width="match_parent" 
+		android:layout_height="match_parent"
+		android:layout_centerInParent="true"
+		android:paddingBottom="30dip"
+		android:gravity ="center"
+		android:background="@drawable/music_list_background"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="@string/music_list_empty"
+		android:visibility="gone"
+		/>
+		
+		<LinearLayout
+			android:id="@+id/no_sdcard"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:orientation="vertical"
+			android:background="@drawable/music_list_background"
+			android:visibility="gone" 
+			>
+			 <ImageView
+				android:id="@+id/sd_icon"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:background="@drawable/ic_mp_sd_card"
+				/>
+			 <TextView
+				android:id="@+id/sd_message"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:padding="8dip"
+				android:text="@string/sdcard_missing_message"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				/>
+		</LinearLayout>	
+		
+		<RelativeLayout
+			android:id="@+id/music_play_view" 
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			>
+			
+			<LinearLayout
+				android:id="@+id/music_control"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal ="true"
+				android:layout_marginTop="2dp"
+				
+				>
+				
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="@drawable/music_previous"
+					android:id="@+id/music_previous"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					/>	
+					
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="@drawable/music_pause"
+					android:id="@+id/music_play"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					/>
+					
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="@drawable/music_next"
+					android:id="@+id/music_next"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					/>
+					
+			</LinearLayout>
+			
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_above ="@id/music_control"
+				android:layout_gravity="center_horizontal"
+				android:background="@drawable/music_list_background"
+				>
+				<TextView
+					android:id="@+id/music_name"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentTop="true"
+					android:layout_centerHorizontal ="true"	
+					android:textColor="#ffffff"					
+					/>				
+				<com.eastaeon.floatapp.music.lrc.LrcView
+					android:id="@+id/music_lrc"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/music_name"
+					android:layout_alignParentBottom="true"
+					/>
+
+				<TextView
+					android:id="@+id/music_no_lrc"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/music_name"
+					android:layout_alignParentBottom="true"
+					android:gravity="center"
+					android:textColor="#7396ff"	
+					android:text="@string/music_no_lrc"
+					android:visibility="gone"
+					/>					
+			</RelativeLayout>	
+		</RelativeLayout>
+		
+	</FrameLayout>
+			
+
+</RelativeLayout>

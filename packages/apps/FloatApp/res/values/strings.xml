@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Application name -->
+    <string name="app_name">FloatApp</string>
+	<string name="calculator_app_name">Calculator</string>
+    <!-- If there is a syntax error in the user entered calculation, an error dialog will appear.  This is the title. -->
+    <string name="error">Error</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit0">0</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit1">1</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit2">2</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit3">3</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit4">4</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit5">5</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit6">6</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit7">7</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit8">8</string>
+    <!-- Displayed numbers for the digit buttons -->
+    <string name="digit9">9</string>
+    <!-- Button name on screen to delete the last entered digit or operator -->
+    <string name="del">DELETE</string>
+    <!-- Button name on screen to clear the entire calculation field. [CHAR LIMIT=6] -->
+    <string name="clear">CLR</string>
+    <!-- Do not translate. Unicode division sign; don't translate. Displayed as button on screen. -->
+    <string translatable="false" name="div">\u00f7</string>
+    <!-- Do not translate. Unicode multiplication sign; don't translate. Displayed as button on screen. -->
+    <string translatable="false" name="mul">\u00d7</string>
+    <!-- Do not translate. Plus sign, displayed as button on screen -->
+    <string translatable="false" name="plus">+</string>
+    <!-- Do not translate. Unicode minus sign; don't translate. Displayed as button on screen. -->
+    <string translatable="false" name="minus">\u2212</string>
+    <!-- Do not translate. Decimal point; don't translate. Displayed as button on screen. -->
+    <string translatable="false" name="dot">.</string>
+    <!-- Do translatable="false" not translate. Equal sign; don't translate. Displayed as button on screen. -->
+    <string translatable="false" name="equal">=</string>
+    <!-- Displayed on buttons on screen for the sin function. -->
+    <string name="sin">sin</string>
+    <!-- Do not translate. What we replace translated SIN with for calculating sin.-->
+    <string translate="false" name="sin_mathematical_value">sin</string>
+    <!-- Displayed on buttons on screen for the cos function. -->
+    <string name="cos">cos</string>
+    <!-- Do not translate. What we replace translated COS with for calculating cos. -->
+    <string translate="false" name="cos_mathematical_value">cos</string>
+    <!-- Displayed on buttons on screen for the tan function. -->
+    <string name="tan">tan</string>
+    <!-- Do not translate. What we replace translated TAN with for calculating tan. -->
+    <string translate="false" name="tan_mathematical_value">tan</string>
+    <!-- Do not translate. Unicode pi sign; don't translate. Displayed as button on screen. -->
+    <string translatable="false" name="pi">\u03c0</string>
+    <!-- Displayed on buttons on screen for the e function. -->
+    <string name="e">e</string>
+    <!-- Do not translate. What we replace translated e with for calculating e. -->
+    <string translate="false" name="e_mathematical_value">e</string>
+    <!-- Displayed on buttons on screen for the ln function. -->
+    <string name="ln">ln</string>
+    <!-- Do not translate. What we replace translated ln with for calculating ln. -->
+    <string translate="false" name="ln_mathematical_value">ln</string>
+    <!-- Displayed on buttons on screen for the log function. -->
+    <string name="lg">log</string>
+    <!-- Do not translate. What we replace translated lg with for calculating lg. -->
+    <string translate="false" name="lg_mathematical_value">lg</string>
+    <!-- Displayed on buttons on screen for a left parenthesis. -->
+    <string name="leftParen">(</string>
+    <!-- Displayed on buttons on screen for a right parenthesis. -->
+    <string name="rightParen">)</string>
+    <!-- Do not translate. Unicode square root sign; don't translate. Displayed on button on screen. -->
+    <string translatable="false" name="sqrt">\u221a</string>
+    <!-- Do not translate. Displayed on buttons on screen. -->
+    <string translatable="false" name="power">^</string>
+    <!-- Do not translate. -->
+    <string translatable="false" name="factorial">!</string>
+    <!-- Menu item text to take user to the screen with the basic digits and operators. -->
+    <string name="basic">Basic panel</string>
+    <!-- Menu item text to take user to the screen with the advanced functions, such as sin, cos, ln, log, etc. -->
+    <string name="advanced">Advanced panel</string>
+    <!-- Menu item text to clear the calculation history. -->
+    <string name="clear_history">Clear history</string>
+    <!-- Toast shown when text is copied to the clipboard. -->
+    <string name="text_copied_toast">Text copied.</string>
+
+    <!--Content descriptions for accessibility. These strings will be read aloud to users who are using the calculator with
+    accessibility features enabled and should reflect the mathematical concept instead of a direct representation of what is shown
+    on the button-->
+    <string name="leftParenDesc">left parenthesis</string>
+    <string name="rightParenDesc">right parenthesis</string>
+    <string name="factorialDesc">factorial</string>
+    <string name="lnDesc">natural logarithm</string>
+    <string name="lgDesc">logarithm</string>
+    <string name="sqrtDesc">square root</string>
+    <string name="divDesc">divide</string>
+    <string name="mulDesc">multiply</string>
+    <string name="plusDesc">plus</string>
+    <string name="minusDesc">minus</string>
+    <string name="dotDesc">point</string>
+    <string name="powerDesc">power</string>
+    <string name="delDesc">delete</string>
+    <string name="clearDesc">clear</string>
+    <string name="tanDesc">tangent</string>
+    <string name="sinDesc">sine</string>
+    <string name="cosDesc">cosine</string>
+    <string name="eDesc">Euler\'s number</string>
+    <string name="piDesc">pi</string>
+    <string name="equalDesc">equals</string>
+	<string name="video_app_name">"Video"</string>
+    <!--Content descriptions for accessibility used as keys when determining which mathematical
+    concept description to speak when accessibility features are enabled. Order of the array is
+    important. -->
+    <string-array name="operators" translatable="false">
+        <item>(</item>
+        <item>)</item>
+        <item>!</item>
+        <item>ln</item>
+        <item>log</item>
+        <item>\u221a</item>
+        <item>\u00f7</item>
+        <item>\u00d7</item>
+        <item>+</item>
+        <item>\u2212</item>
+        <item>.</item>
+        <item>^</item>
+        <item>tan</item>
+        <item>sin</item>
+        <item>cos</item>
+        <item>\u03c0</item>
+        <item>=</item>
+    </string-array>
+
+    <!--Content descriptions for accessibility. These strings will be read aloud to users who
+     are using the calculator with accessibility features enabled and hover over the edit text
+     field. These should reflect the mathematical concept instead of a direct representation of
+     what is shown in the text field. Order of the array is important.-->
+    <string-array name="operatorDescs">
+        <!-- Description for mathematical ( [CHAR LIMIT=200]-->
+        <item>left parenthesis</item>
+        <!-- Description for mathematical ) [CHAR LIMIT=200]-->
+        <item>right parenthesis</item>
+        <!-- Description for mathematical ! (factorial) function [CHAR LIMIT=200]-->
+        <item>factorial</item>
+        <!-- Description for mathematical ln [CHAR LIMIT=200]-->
+        <item>natural logarithm</item>
+        <!-- Description for mathematical log [CHAR LIMIT=200]-->
+        <item>logarithm</item>
+        <!-- Description for mathematical square root [CHAR LIMIT=200]-->
+        <item>square root</item>
+        <!-- Description for mathematical / [CHAR LIMIT=200]-->
+        <item>divided by</item>
+        <!-- Description for mathematical x [CHAR LIMIT=200]-->
+        <item>multiplied by</item>
+        <!-- Description for mathematical + [CHAR LIMIT=200]-->
+        <item>plus</item>
+        <!-- Description for mathematical - [CHAR LIMIT=200]-->
+        <item>minus</item>
+        <!-- Description for mathematical . [CHAR LIMIT=200]-->
+        <item>&#160;point&#160;</item>
+        <!-- Description for mathematical ^ [CHAR LIMIT=200]-->
+        <item>power</item>
+        <!-- Description for mathematical TAN [CHAR LIMIT=200]-->
+        <item>tangent</item>
+        <!-- Description for mathematical SIN [CHAR LIMIT=200]-->
+        <item>sine</item>
+        <!-- Description for mathematical COS [CHAR LIMIT=200]-->
+        <item>cosine</item>
+        <!-- Description for mathematical PI [CHAR LIMIT=200]-->
+        <item>pi</item>
+        <!-- Description for mathematical = [CHAR LIMIT=200]-->
+        <item>equals</item>
+    </string-array>
+	
+	<string name="video_duration">"<xliff:g id="current_hours">%02d</xliff:g>:<xliff:g id="current_minutes">%02d</xliff:g>:<xliff:g id="current_seconds">%02d</xliff:g> / <xliff:g id="duration_hours">%02d</xliff:g>:<xliff:g id="duration_minutes">%02d</xliff:g>:<xliff:g id="duration_seconds">%02d</xliff:g>"</string>
+	
+	<!-- Video Player -->
+	<string name="video_list_empty">"No videos."</string>
+	<string name="scanning">"Scanning SD card..."</string>
+	<string name="sdcard_missing_message">"Your phone does not have an SD card inserted."</string>
+	
+	<!-- Sound Recorder -->
+    <!-- application name and title of error dialogs-->
+    <string name="sound_recorder_app_name">Recorder</string>
+
+    <!-- Screen title before and during recording -->
+    <string name="record_your_message">Record your message</string>
+    <!-- Screen title after recording -->
+    <string name="message_recorded">Message recorded</string>
+    <!-- Screen title while playing back a recording -->
+    <string name="review_message">Review message</string>
+    <!-- Label shown during recording -->
+    <string name="recording">Recording</string>
+    <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->
+    <string name="recording_stopped">Recording stopped</string>
+    <!-- label shown when there is not enough space to record something -->
+    <string name="storage_is_full">Storage is full</string>
+    <!-- label shown when the recording has reached maximum allowed file size -->
+    <string name="max_length_reached">Maximum length reached</string>
+    <!-- label shown when there is no sd card available to record to [CHAR LIMIT=30] -->
+    <string name="insert_sd_card" product="nosdcard">Mount USB storage</string>
+    <!-- label shown when there is no sd card available to record to -->
+    <string name="insert_sd_card" product="default">Insert an SD card</string>
+    <!-- label shown when there is more than 1 minute but less than 9 minutes of space left to record -->
+    <string name="min_available"><xliff:g id="minutes">%d</xliff:g> min available</string>
+    <!-- label shown when there is less than 1 minute of space left to record -->
+    <string name="sec_available"><xliff:g id="seconds">%d</xliff:g>s available</string>
+
+    <!-- button to accept the current recording and return it to the caller -->
+    <string name="accept">Done</string>
+    <!-- button to discard the current recording and return to the caller -->
+    <string name="discard">Discard</string>
+    <!-- acknowlegement button in a number of dialogs -->
+    <string name="button_ok">OK</string>
+    <!-- Do not translate. Format of the timer that shows how much has been recorded so far -->
+    <string name="timer_format" translatable="false"><xliff:g id="format">%02d:%02d</xliff:g></string>
+   
+    <!-- the name under which recordings will be visible in the media database is formatted like this --> 
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <!-- all recordings will show up in the media database with this 'artist' name -->
+    <string name="audio_db_artist_name">Your recordings</string>
+    <!-- all recordings will show up in the media database with this 'album' name -->
+    <string name="audio_db_album_name">Audio recordings</string>
+    <!-- all recordings will show up in the media database in a playlist with this name -->
+    <string name="audio_db_playlist_name">My recordings</string>
+   
+    <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card [CHAR LIMIT=NONE] -->
+    <string name="error_sdcard_access" product="nosdcard">Can\'t access USB storage.</string>
+    <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->
+    <string name="error_sdcard_access" product="default">Can\'t access SD card.</string>
+    <!-- shown as the message in a dialog when the app encountered an unspecified internal error -->
+    <string name="error_app_internal">Internal application error.</string>
+    <!-- shown as the message in a dialog when the recording could not be added to the media database -->
+    <string name="error_mediadb_new_record">Couldn\'t save recorded audio.</string>	
+
+    <string name="unknown_artist_name">Unknown artist</string>
+    <string name="tell_save_record_success">Save succeeded</string>
+    <string name="save_record">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="recording_format_high">High</string>
+    <string name="recording_format_mid">Mid</string>
+    <string name="recording_format_low">Low</string>
+    <string name="three_mins_avail_total">"3 mins available total"</string>
+    <string name="alert_delete_multiple">These items will be deleted</string>
+    <string name="alert_delete_single">This item will be deleted</string>
+    <string name="ok">OK</string>
+    <string name="delete">Delete</string>
+    <string name="deleting">Deleting</string>
+    <string name="no_recording_file">(No recording file)</string>
+    <string name="recording_file_list">Recording file list</string>
+    <string name="recording_paused">Recording paused</string>
+    <string name="voice_quality">Voice quality</string>
+    <string name="recording_mode">Recording mode</string>
+    <string name="recording_effect">Recording effects</string>
+    <string name="select_voice_quality">Select voice quality</string>
+    <string name="select_recording_mode">Select recording mode</string>
+    <string name="select_recording_effect">Select recording effects</string>
+    <string name="recording_mode_nomal">Normal</string>
+    <string name="time_available"><xliff:g id="minutes">%d</xliff:g> mins <xliff:g id="seconds">%d</xliff:g>s available</string>
+    <string name="recording_mode_meeting">Meeting</string>
+    <string name="recording_mode_lecture">Lecture</string>
+    <!-- Error Handle Message -->
+    <string name="sd_unmounted">SD card is unmounted.</string>
+    <string name="storage_low">Your default storage is running out of space. Stop recording or delete items from SD Card.</string>
+    <string name="storage_full">Default storage is full.</string>
+    <string name="sd_no">Please insert an SD card.</string>
+    <string name="recording_fail">Failed in recording</string>
+    <string name="recorder_occupied">Recorder is occupied by other application.</string>
+    <string name="playing_fail">Failed in playing</string>
+    <string name="player_occupied">Player is occupied by other application.</string>
+    <string name="recording_doc_deleted">Recording document has been deleted.</string>
+    <string name="saving_fail">Failed in saving</string>
+    <string name="deleting_fail">Failed in deleting</string>
+    <string name="accessing_db_fail">Failed in accessing data base.</string>
+    <string name="recording_effect_AGC">Auto gain control</string>
+    <string name="recording_effect_AEC">Echo cancellation</string>
+    <string name="recording_effect_NS">Noise suppression</string>
+    <string name="recording_format_standard">Standard</string>
+    <string name="not_available">Currently not available</string>	
+	
+	<!-- Music-->
+	<string name="music_title">Music</string>
+	<string name="music_no_lrc">The lyrics is not found, please download</string>
+	<string name="music_error">Can not play this song</string>	
+	<string name="music_list_empty">"No Music."</string>
+</resources>
